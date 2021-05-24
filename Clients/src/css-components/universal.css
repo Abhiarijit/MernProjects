@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bdy {
+    /* background: linear-gradient(30deg, #F9CA1C, #F6521E, #422DC5); */
+}

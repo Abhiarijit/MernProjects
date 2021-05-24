@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .my-datas {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.container .my-datas .my-data {
+    background-color: rgba(29, 13, 13, 0);
+    width: 22vw;
+    padding: 30px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 17vh;
+    margin: 2%;
+}
+
+.container .my-datas .my-data:hover {
+    box-shadow: inset -2px -2px 8px rgba(0, 0, 0, 0.1), inset -2px -2px 8px rgba(0, 0, 0, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container .users-datas {
+    margin-top: 5%;
+    background-color: rgba(29, 13, 13, 0);
+    width: 65vw;
+    padding: 15px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 55vh;
+}
+
+.container .users-datas:hover {
+    box-shadow: inset -2px -2px 8px rgba(0, 0, 0, 0.1), inset -2px -2px 8px rgba(0, 0, 0, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container .users-datas .form .form-group {
+    margin-top: 5%;
+    background-color: rgba(29, 13, 13, 0);
+    width: 16vw;
+    padding: 15px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 15vh;
+}
+
+.container .users-datas .form .form-group:hover {
+    box-shadow: inset -2px -2px 8px rgba(0, 0, 0, 0.1), inset -2px -2px 8px rgba(0, 0, 0, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container .users-datas .form {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.container .users-datas .form .form-group .inp-text {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.container .users-datas .form .form-group .inp-mail {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.container .users-datas .form .form-group .inp-num {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.container .users-datas .form .form-submit .inp-submit {
+    outline: none;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+    width: 40%;
+    background-color: blue;
+    height: 30%;
+}
+
+.container .users-datas .form .textarea-group textarea {
+    width: 15vw;
+    height: 20vh;
+    outline: none;
+    font-weight: bold;
+}
